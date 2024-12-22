@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit.MD - Markdown Editor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Include CodeMirror CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.css"
+    />
+  </head>
+  <body>
+    <div class="header-container">
+      <h1>Edit.MD - Markdown Editor</h1>
+
+      <div class="buttons">
+        <button id="toggle-preview">Show Preview</button>
+        <button id="copy">Copy</button>
+        <div class="download-options">
+          <button id="download">Download</button>
+          <ul class="dropdown">
+            <li data-format="md">.MD</li>
+            <li data-format="txt">.TEXT</li>
+            <li data-format="html">.HTML</li>
+            <li data-format="pdf">.PDF</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="editor" class="editor"></div>
+    <div id="preview" class="preview"></div>
+
+    <!-- Include CodeMirror JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

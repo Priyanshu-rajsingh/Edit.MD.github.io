@@ -1,0 +1,69 @@
+# Welcome to EditMD
+
+This is a **powerful** markdown editor with real-time preview.
+
+## Features
+
+- Real-time preview
+- Copy to clipboard
+- Download as .md file
+- Clean and modern interface
+
+## Markdown Syntax Demonstration
+
+### Text Formatting
+
+You can format text using:
+- **Bold Text**: This is **bold** text.
+- *Italic Text*: This is *italic* text.
+- ***Bold and Italic***: This is ***bold and italic*** text.
+
+### Lists
+
+#### Unordered List
+- Item 1
+- Item 2
+  - Subitem 1
+  - Subitem 2
+
+#### Ordered List
+1. First Item
+2. Second Item
+3. Third Item
+
+### Links and Images
+
+You can add links like this: [Visit OpenAI](https://www.openai.com)
+
+And images like this:
+
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
+### Blockquotes
+
+> "The only limit to our realization of tomorrow will be our doubts of today."  
+> — Franklin D. Roosevelt
+
+### Code Blocks
+
+You can include inline code like this: `console.log("Hello, World!");`
+
+Or block code:
+
+function greet() {
+console.log("Hello, World!");
+}
+
+
+### Horizontal Rule
+
+You can create a horizontal rule like this:
+
+---
+
+### Conclusion
+
+This Markdown editor supports a wide range of formatting options to enhance your writing experience. Enjoy using **EditMD** for your Markdown needs!
+
+
+
